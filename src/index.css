@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer components{
+    .check-rules{
+        @apply flex gap-8 ml-[50px] mr-[30px] items-center mb-[20px]
+    }
+}
